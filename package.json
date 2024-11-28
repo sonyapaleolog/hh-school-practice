@@ -1,0 +1,20 @@
+{
+  "name": "html-and-css-practice",
+  "version": "1.0.0",
+  "homepage": "",
+  "repository": "",
+  "author": "Roman Dmiterko",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html --public-url './'",
+    "deploy": "yarn build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@parcel/transformer-less": "^2.8.0",
+    "gh-pages": "^3.2.3",
+    "less": "^4.1.3",
+    "parcel": "^2.8.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
