@@ -17,11 +17,34 @@
                     <a href="/">
                         <img src="/hh.0a4821ed.svg" alt="">
                     </a>
-                    <div>
+                    <!-- Выбор меню отображения сделан через медио-выражение для классов  menu-desktop/menu-desktop-buttons/ menu-mobile-->
+
+                    <!-- Меню, которое отображаем на десктопе и планшете -->
+                    <nav class="menu-desktop">
+                        <a href="" class="menu-desktop-link">
+                            Одежда
+                        </a>
+                        <a href="" class="menu-desktop-link">
+                            Сумки
+                        </a>
+                        <a href="" class="menu-desktop-link">
+                            Аксессуары
+                        </a>
+                        <a href="" class="menu-desktop-link">
+                            Офисные принадлежности
+                        </a>
+                    </nav>
+                    <div class="menu-desktop-buttons">
+                        <button class="button-search"></button>
+                        <button class="button-sigin">Войти</button>
+                    </div>
+
+                    <!-- Меню, которое отображаем на мобильном устройстве -->
+                    <nav class="menu-mobile">
                         <button class="header__button header__button_search">Поиск</button>
                         <button class="header__button header__button_profile">Профиль</button>
                         <button class="header__button header__button_menu">Меню</button>
-                    </div>
+                    </nav>
                  </div>
             </div>
         </header>
@@ -80,7 +103,7 @@
         <section class="order">
             <div class="container">
                 <h2>Оформление заказа</h2>
-                <form action="" method="POST">
+                <form action="/" method="POST">
                     <h4>Контактное лицо</h4>
                     <input type="text" class="order__input input-text" placeholder="ФИО" name="fio">
                     <input type="email" class="order__input input-text" placeholder="Email" name="email">

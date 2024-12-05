@@ -314,6 +314,61 @@ h4 {
   background: url("profile.bc0aefe0.svg");
 }
 
+.menu-desktop {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .menu-desktop {
+    margin: 0 auto 0 20px;
+    display: block;
+  }
+}
+
+.menu-desktop-link {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.menu-desktop-link:last-of-type {
+  margin-right: 0;
+}
+
+@media (width >= 768px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+
+.menu-desktop-buttons {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .menu-desktop-buttons {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+  }
+}
+
+.button-search {
+  background: url("search.0bb8c215.svg");
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.button-sigin {
+  color: #fff;
+  background: none;
+  border: 1px solid #cccccc80;
+  border-radius: 61px;
+  height: 36px;
+  padding: 9px 15px;
+}
+
 .catalog {
   grid-template-columns: 1fr 1fr;
   gap: 20px 10px;
