@@ -9,7 +9,7 @@
     "dev": "parcel *.html",
     "build": "parcel build *.html --public-url './'",
     "deploy": "yarn build && gh-pages -d dist",
-    "lint": "eslint src"
+    "lint": "eslint js"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
