@@ -5,6 +5,9 @@
   display: flex;
   align-items: flex-start;
   padding-top: 40px;
+  justify-content: center;
+  margin-bottom: 0;
+  position: relative;
 }
 .social_container {
   display: flex;
@@ -28,6 +31,7 @@
 .footer_button_app {
   background-color: #212122;
   border: none;
+  margin: 8px;
 }
 .footer_logo {
   background-color: #212122;
@@ -43,27 +47,32 @@
     display: none;
   }
 }
-.bottom {
-  background-color: #212122;
-  height: 100px;
-}
-.itt {
-  background-color: #212122;
-}
-.line {
-  width: 930px;
-  height: 1px;
-  background-color: #ff0000;
-  border: none;
-  margin-left: 175px;
-}
+
 .footer_text {
-  font-family: "Roboto Condensed", serif;
+  background-color: #212122;
   font-weight: 400;
   font-size: 14px;
   color: #999999;
-  text-align: left;
-  margin-top: 30px;
-  margin-left: 175px;
+  left: 175px; 
+  right: 175px;
+  margin: 0;
   line-height: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+}
+
+.text_content {
+  text-align: left;
+}  
+
+.footer_section::after {
+  content: ""; 
+  position: absolute; 
+  left: 175px; 
+  right: 175px; 
+  height: 1px; 
+  background-color: #666666; 
+  bottom: 20px; 
 }
