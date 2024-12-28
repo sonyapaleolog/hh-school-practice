@@ -5,6 +5,7 @@
   "repository": "",
   "author": "Roman Dmiterko",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "parcel *.html",
     "build": "parcel build *.html --public-url './'",
@@ -15,12 +16,11 @@
     "@eslint/js": "^9.16.0",
     "@parcel/transformer-less": "^2.8.0",
     "eslint": "^9.16.0",
-    "eslint-plugin-react": "^7.37.2",
     "gh-pages": "^3.2.3",
     "globals": "^15.13.0",
     "husky": "^9.1.7",
     "less": "^4.1.3",
-    "lint-staged": "^15.2.11",
+    "lint-staged": "^15.3.0",
     "parcel": "^2.8.0",
     "prettier": "^3.4.2"
   },
